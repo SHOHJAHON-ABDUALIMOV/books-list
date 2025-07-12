@@ -1,0 +1,14 @@
+export { default as Hero } from "./hero.png";
+export { default as Card1 } from "./card1.png";
+export { default as Card2 } from "./card2.png";
+export { default as Card3 } from "./card3.png";
+export { default as Card4 } from "./card4.png";
+export { default as Card5 } from "./card5.png";
+export { default as Card6 } from "./card6.png";
+export { default as User1 } from "./user1.png";
+export { default as User2 } from "./user2.png";
+export { default as User3 } from "./user3.png";
+export { default as Logo } from "./Logo.svg";
+export { default as Input1 } from "./input1-icon.svg";
+export { default as Input2 } from "./input2-icon.svg";
+export { default as RatingIcon } from "./rating_icon.svg";

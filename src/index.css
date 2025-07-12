@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family: "Geist", sans-serif;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster: #fafafa;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster-100: rgba(
+    250,
+    250,
+    250,
+    0.1
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster-200: rgba(
+    250,
+    250,
+    250,
+    0.2
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster-700: rgba(
+    250,
+    250,
+    250,
+    0.7
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster-800: rgba(
+    250,
+    250,
+    250,
+    0.8
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-athens-gray: #f4f4f5;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-candlelight: #facc15;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-gray-chateau: #9ca3af;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-black: #000;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-iron: #e4e4e7;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-jumbo: #71717a;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-white: #fff;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-white-200: rgba(
+    255,
+    255,
+    255,
+    0.2
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-woodsmoke: #18181b;
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-white-600: rgba(
+    255,
+    255,
+    255,
+    0.6
+  );
+  --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-woodsmoke: #09090b;
+  --color-white-solid: #fff;
+  --color-grey-10: #18181b;
+  --color-grey-98: #fafafa;
+  --color-white--200: rgba(255, 255, 255, 02);
+  --color-grey-96: #f4f4f5;
+  --color-black-solid: #000;
+  --color-grey-90: #e4e4e7;
+  --color-grey-46: #71717a;
+  --color-azure-65: #9ca3af;
+  --color-black--700: rgba(0, 0, 0, 07);
+  --color-black--0: rgba(0, 0, 0, 0);
+  --color-yellow-53: #facc15;
+  --color-blue-4: #09090b;
+  --color-grey-98-100: rgba(250, 250, 250, 01);
+  --color-grey-98-200: rgba(250, 250, 250, 02);
+  --color-grey-98-700: rgba(250, 250, 250, 07);
+  --color-grey-98-800: rgba(250, 250, 250, 08);
+  --color-white--600: rgba(255, 255, 255, 06);
+}
