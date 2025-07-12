@@ -12,3 +12,4 @@ export { default as Logo } from "./Logo.svg";
 export { default as Input1 } from "./input1-icon.svg";
 export { default as Input2 } from "./input2-icon.svg";
 export { default as RatingIcon } from "./rating_icon.svg";
+export { default as RatingUserIcon } from "./rating_user_icon.svg";

@@ -1,31 +1,36 @@
 import React from "react";
-import { Input1 } from "../assets/index";
-import { Input2 } from "../assets/index";
+import { Input1, Input2 } from "../assets/index";
+
+const inputsData = [
+  {
+    label: "Destination",
+    placeholder: "Where to go?",
+    icon: Input1,
+  },
+  {
+    label: "Check in",
+    placeholder: "Add date",
+    icon: Input2,
+  },
+  {
+    label: "Check out",
+    placeholder: "Add date",
+    icon: Input2,
+  },
+];
 const Testimonials = () => {
   return (
     <section className="Testimonial__section">
       <div className="Testimonial__section__info">
-        <div className="testimonial__inputs">
-          <h6>Destination</h6>
-          <div className="input__div">
-            <img src={Input1} alt="this is photo" />
-            <input type="text" placeholder="Where to go?" />
+        {inputsData.map((input, index) => (
+          <div className="testimonial__inputs" key={index}>
+            <h6>{input.label}</h6>
+            <div className="input__div">
+              <img src={input.icon} alt="icon" />
+              <input type="text" placeholder={input.placeholder} />
+            </div>
           </div>
-        </div>
-        <div className="testimonial__inputs">
-          <h6>Check in</h6>
-          <div className="input__div">
-            <img src={Input2} alt="this is photo" />
-            <input type="text" placeholder="Add date" />
-          </div>
-        </div>
-        <div className="testimonial__inputs">
-          <h6>Check out</h6>
-          <div className="input__div">
-            <img src={Input2} alt="this is photo" />
-            <input type="text" placeholder="Add date" />
-          </div>
-        </div>
+        ))}
         <button className="global_button">Search</button>
       </div>
     </section>
