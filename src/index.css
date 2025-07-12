@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+button{
+  cursor: pointer;
+}
 :root {
   --font-family: "Geist", sans-serif;
   --preview-menga-travel-landing-kzmgi3lbr1qdfuvop0fcvusercontentnet-alabaster: #fafafa;
